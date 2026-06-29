@@ -1,194 +1,89 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Diego ❤️ Marcella</title>
-
-    <link rel="stylesheet" href="style.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nosso 1 mês ❤️</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <!-- Tela de abertura -->
-    <div id="intro">
+  <!-- CARTA INICIAL -->
+  <section class="tela-inicial" id="telaInicial">
+    <div class="carta">
+      <p>Para você, com todo meu amor ❤️</p>
+      <button id="btnAbrir">Abra nossa história ❤️</button>
+    </div>
+  </section>
 
-        <div class="intro-text">
-            <h1 id="typing"></h1>
+  <!-- TEXTO SURPRESA -->
+  <section class="amor" id="amor">
+    <h1>diego ❤️ Marcella</h1>
+  </section>
 
-            <p id="typing2"></p>
+  <!-- GALERIA -->
+  <section class="galeria" id="galeria">
 
-            <button id="entrar" onclick="abrirSite()">
-                ❤️ Abrir nossa história
-            </button>
-
-        </div>
-
+    <div class="polaroid">
+      <img src="foto1.jpg" alt="">
+      <p>Te amo</p>
     </div>
 
-    <!-- Conteúdo -->
-    <main id="site">
+    <div class="polaroid">
+      <img src="foto2.jpg" alt="">
+      <p>Esperando minha cocotinha ficar pronta</p>
+    </div>
 
-        <!-- Hero -->
-        <section class="hero">
+    <div class="polaroid">
+      <img src="foto3.jpg" alt="">
+      <p>Enquanto isso...</p>
+    </div>
 
-            <div class="overlay"></div>
+    <div class="polaroid">
+      <img src="foto4.jpg" alt="">
+      <p>Um momento para se lembrar</p>
+    </div>
 
-            <div class="hero-content">
+    <div class="polaroid">
+      <img src="foto5.jpg" alt="">
+      <p>Que seja o primeiro mês de inúmeros</p>
+    </div>
 
-                <h1>Diego ❤️ Marcella</h1>
+  </section>
 
-                <p>31 de Maio de 2026</p>
+  <!-- CARTA FINAL (SÓ APARECE DEPOIS) -->
+  <section class="carta-final" id="cartaFinal">
+    <h2>Uma carta para você ❤️</h2>
 
-                <div id="contador"></div>
+    <p>
+      Oi, minha cocotinha.<br><br>
 
-            </div>
+      Hoje faz exatamente um mês desde que você disse sim a minha pergunta envergonhada.<br><br>
 
-        </section>
+      Parece pouco, mas para mim foi tempo suficiente para perceber o quanto você faz bem para os meus dias e o quanto eu quero que você continue fazendo parte deles.<br><br>
 
-        <!-- História -->
-        <section class="historia">
+      Cada conversa, cada risada, cada chamada e cada momento com você virou uma lembrança que eu gosto de relembrar.<br><br>
 
-            <h2>Nossa História</h2>
+      Mesmo com a distância, nunca senti você longe de verdade.<br><br>
 
-            <div class="linha"></div>
+      Espero que esse seja apenas o primeiro capítulo de muitos que ainda vamos viver juntos.<br><br>
 
-            <div class="card">
-                <h3>✨ O começo</h3>
+      Feliz nosso primeiro mês.<br><br>
 
-                <p>
-                    Um mês atrás começava uma das melhores fases da minha vida.
-                </p>
-            </div>
+      ❤️<br><br>
 
-            <div class="card">
+      Com carinho,<br>
+      Diego
+    </p>
+  </section>
 
-                <h3>❤️ Minha cocotinha</h3>
+  <!-- BOTÃO FINAL SPOTIFY -->
+  <section class="musica" id="musica">
+    <a href="https://open.spotify.com/track/3d0n1y0x0example" target="_blank">
+      Ouvir nossa música ❤️
+    </a>
+  </section>
 
-                <p>
-                    Obrigado por fazer meus dias mais leves,
-                    mais felizes e muito mais especiais.
-                </p>
-
-            </div>
-
-        </section>
-
-        <!-- Galeria -->
-        <section class="galeria">
-
-            <h2>Nossas Fotos</h2>
-
-            <div class="grid">
-
-                <img src="images/foto1.jpg">
-
-                <img src="images/foto2.jpg">
-
-                <img src="images/foto3.jpg">
-
-                <img src="images/foto4.jpg">
-
-                <img src="images/foto5.jpg">
-
-            </div>
-
-        </section>
-
-        <!-- Carta -->
-
-        <section class="carta">
-
-            <h2>Uma carta para você ❤️</h2>
-
-            <div class="envelope">
-
-                <p>
-
-                    Oi, minha cocotinha.
-
-                    <br><br>
-
-                    Hoje faz exatamente um mês desde que você disse sim a minha pergunta envergomhada.
-
-                    <br><br>
-
-                    Parece pouco, mas para mim foi tempo suficiente para perceber o quanto você faz bem para os meus dias e o quanto eu quero que você continue fazendo parte deles.
-
-                    <br><br>
-
-                    Cada conversa, cada risada, cada chamada e cada momento com você virou uma lembrança que eu gosto de relembrar.
-
-                    <br><br>
-
-                    Mesmo com a distância, nunca senti você longe de verdade.
-
-                    <br><br>
-
-                    Espero que esse seja apenas o primeiro capítulo de muitos que ainda vamos viver juntos.
-
-                    <br><br>
-
-                    Feliz nosso primeiro mês.
-
-                    <br><br>
-
-                    ❤️
-
-                    <br><br>
-
-                    Com carinho,
-
-                    <br>
-
-                    Diego
-
-                </p>
-
-            </div>
-
-        </section>
-
-        <!-- Música -->
-
-        <section class="musica">
-
-            <h2>Nossa Música 🎵</h2>
-
-            <a href="https://open.spotify.com/search/mania%20de%20voce%20rita%20lee" target="_blank">
-
-                <button>
-
-                    Ouvir Nossa Música
-
-                </button>
-
-            </a>
-
-        </section>
-
-        <!-- Final -->
-
-        <footer>
-
-            <h2>Ainda é só o começo da nossa história...</h2>
-
-            <p>
-
-                Diego ❤️ Marcella
-
-            </p>
-
-        </footer>
-
-    </main>
-
-    <script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
-
 </html>
